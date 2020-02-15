@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_45f6d8f1ebd841f094db9ebdc6d21a22 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_45f6d8f1ebd841f094db9ebdc6d21a22" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_45f6d8f1ebd841f094db9ebdc6d21a22 = L.map(
+                                  'map_45f6d8f1ebd841f094db9ebdc6d21a22',
+                                  {center: [-26.205,28.049722],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_978c2007ebdf4a4295ab92f2f383ad04 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+        
+    
+            var circle_marker_45349707c3c348c8b0194c34b83df31a = L.circleMarker(
+                [-26.151542991373,28.064935121559287],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_9cf33314f2c44e11920f51e53787243a = L.popup({maxWidth: '300'});
+
+            
+                var html_8751beab3a2d4009b684d9f2fa8db8d8 = $('<div id="html_8751beab3a2d4009b684d9f2fa8db8d8" style="width: 100.0%; height: 100.0%;">►  Lists of suburbs in South Africa‎ (3 P) - Cluster 0</div>')[0];
+                popup_9cf33314f2c44e11920f51e53787243a.setContent(html_8751beab3a2d4009b684d9f2fa8db8d8);
+            
+
+            circle_marker_45349707c3c348c8b0194c34b83df31a.bindPopup(popup_9cf33314f2c44e11920f51e53787243a);
+
+            
+        
+    
+            var circle_marker_caf5bf7ad9c14c5abb5585ad5fcbb7bf = L.circleMarker(
+                [-26.090876043046766,28.160477523064245],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_0168c065b7604074a854b7d7b3de4470 = L.popup({maxWidth: '300'});
+
+            
+                var html_1bb9488c9542416da47538eaa0c36026 = $('<div id="html_1bb9488c9542416da47538eaa0c36026" style="width: 100.0%; height: 100.0%;">►  Suburbs of Bloemfontein‎ (30 P) - Cluster 0</div>')[0];
+                popup_0168c065b7604074a854b7d7b3de4470.setContent(html_1bb9488c9542416da47538eaa0c36026);
+            
+
+            circle_marker_caf5bf7ad9c14c5abb5585ad5fcbb7bf.bindPopup(popup_0168c065b7604074a854b7d7b3de4470);
+
+            
+        
+    
+            var circle_marker_1bba2ccd5c5340afaf051958f949880d = L.circleMarker(
+                [-26.20807364556529,28.055775347625374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_f4c98ec02dbf4c1596a9864dca7a9d80 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c060b7b2fff468fb847e343bdbfba21 = $('<div id="html_5c060b7b2fff468fb847e343bdbfba21" style="width: 100.0%; height: 100.0%;">►  Suburbs of Durban‎ (59 P) - Cluster 0</div>')[0];
+                popup_f4c98ec02dbf4c1596a9864dca7a9d80.setContent(html_5c060b7b2fff468fb847e343bdbfba21);
+            
+
+            circle_marker_1bba2ccd5c5340afaf051958f949880d.bindPopup(popup_f4c98ec02dbf4c1596a9864dca7a9d80);
+
+            
+        
+    
+            var circle_marker_e2a69d4d5da244efb5f6c4971dd0d4bb = L.circleMarker(
+                [46.68509700000001,14.888173499999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_f5631e8e402143cda4275944efcb6956 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd716202944349c5a6c4ca1a112cf977 = $('<div id="html_bd716202944349c5a6c4ca1a112cf977" style="width: 100.0%; height: 100.0%;">►  Suburbs of Johannesburg‎ (7 C, 31 P) - Cluster 0</div>')[0];
+                popup_f5631e8e402143cda4275944efcb6956.setContent(html_bd716202944349c5a6c4ca1a112cf977);
+            
+
+            circle_marker_e2a69d4d5da244efb5f6c4971dd0d4bb.bindPopup(popup_f5631e8e402143cda4275944efcb6956);
+
+            
+        
+    
+            var circle_marker_342c0750f0a44f89a67ec5e0216c8b1a = L.circleMarker(
+                [-26.083493999999998,28.138675499999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_3012351a31354a0ea7247624b001c6e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_3557d94796ca4b59a6603056ae9f2287 = $('<div id="html_3557d94796ca4b59a6603056ae9f2287" style="width: 100.0%; height: 100.0%;">►  Suburbs of Kempton Park, Gauteng‎ (8 P) - Cluster 0</div>')[0];
+                popup_3012351a31354a0ea7247624b001c6e0.setContent(html_3557d94796ca4b59a6603056ae9f2287);
+            
+
+            circle_marker_342c0750f0a44f89a67ec5e0216c8b1a.bindPopup(popup_3012351a31354a0ea7247624b001c6e0);
+
+            
+        
+    
+            var circle_marker_cec6874dbe8b45bab6f06e66a384dc45 = L.circleMarker(
+                [-26.188743351116486,28.050263591176638],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_66b11bc3d24d4c5c9af98f9e9a41bb8f = L.popup({maxWidth: '300'});
+
+            
+                var html_be4cda15ec2e434588a6b368aa4cb878 = $('<div id="html_be4cda15ec2e434588a6b368aa4cb878" style="width: 100.0%; height: 100.0%;">►  Suburbs of Pretoria‎ (58 P) - Cluster 0</div>')[0];
+                popup_66b11bc3d24d4c5c9af98f9e9a41bb8f.setContent(html_be4cda15ec2e434588a6b368aa4cb878);
+            
+
+            circle_marker_cec6874dbe8b45bab6f06e66a384dc45.bindPopup(popup_66b11bc3d24d4c5c9af98f9e9a41bb8f);
+
+            
+        
+    
+            var circle_marker_fe84e08b8a4041fe8662f104da9dedbe = L.circleMarker(
+                [-26.50662852954593,27.883307038432736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_61b42dec73b5490f87f30d73c46f083c = L.popup({maxWidth: '300'});
+
+            
+                var html_4ad68ba159c046388a32d6f1ecffee43 = $('<div id="html_4ad68ba159c046388a32d6f1ecffee43" style="width: 100.0%; height: 100.0%;">►  Suburbs of Vereeniging‎ (2 P) - Cluster 0</div>')[0];
+                popup_61b42dec73b5490f87f30d73c46f083c.setContent(html_4ad68ba159c046388a32d6f1ecffee43);
+            
+
+            circle_marker_fe84e08b8a4041fe8662f104da9dedbe.bindPopup(popup_61b42dec73b5490f87f30d73c46f083c);
+
+            
+        
+    
+            var circle_marker_8c90e2d94eb34729b7da0c24d8570968 = L.circleMarker(
+                [-26.141598595733413,28.02325556628718],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_40937ca31d224ac4a43084352fbfc8d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_4d9d55cbf38746af97a66c8485d1a303 = $('<div id="html_4d9d55cbf38746af97a66c8485d1a303" style="width: 100.0%; height: 100.0%;">►  University and college campuses in South Africa‎ (1 C, 1 P) - Cluster 0</div>')[0];
+                popup_40937ca31d224ac4a43084352fbfc8d3.setContent(html_4d9d55cbf38746af97a66c8485d1a303);
+            
+
+            circle_marker_8c90e2d94eb34729b7da0c24d8570968.bindPopup(popup_40937ca31d224ac4a43084352fbfc8d3);
+
+            
+        
+    
+            var circle_marker_49c33ed95021474b908308b2e17d11ba = L.circleMarker(
+                [-26.035349999999937,27.952530000000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_4228abdfc9274e0591a566de52171f95 = L.popup({maxWidth: '300'});
+
+            
+                var html_6bbbc4b776e44afd9ae3bf1f5ee1dcb7 = $('<div id="html_6bbbc4b776e44afd9ae3bf1f5ee1dcb7" style="width: 100.0%; height: 100.0%;">►  Suburbs of Centurion, Gauteng‎ (17 P) - Cluster 1</div>')[0];
+                popup_4228abdfc9274e0591a566de52171f95.setContent(html_6bbbc4b776e44afd9ae3bf1f5ee1dcb7);
+            
+
+            circle_marker_49c33ed95021474b908308b2e17d11ba.bindPopup(popup_4228abdfc9274e0591a566de52171f95);
+
+            
+        
+    
+            var circle_marker_46b472a986514c3384e31ad1e2e225cb = L.circleMarker(
+                [-25.993666542847475,28.10447872162271],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45f6d8f1ebd841f094db9ebdc6d21a22);
+            
+    
+            var popup_f143772b40f04eccbde379b190d9a4e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4f8976de1c942cda5a15eb040b06d72 = $('<div id="html_e4f8976de1c942cda5a15eb040b06d72" style="width: 100.0%; height: 100.0%;">►  Suburbs of Cape Town‎ (4 C, 136 P) - Cluster 2</div>')[0];
+                popup_f143772b40f04eccbde379b190d9a4e5.setContent(html_e4f8976de1c942cda5a15eb040b06d72);
+            
+
+            circle_marker_46b472a986514c3384e31ad1e2e225cb.bindPopup(popup_f143772b40f04eccbde379b190d9a4e5);
+
+            
+        
+</script>
